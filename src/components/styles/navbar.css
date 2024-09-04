@@ -1,6 +1,6 @@
 ul a {
 	padding: 12px;
-	margin-left: 25px;
+	margin-left: 20px;
 	border-radius: 25px;
 	line-height: 1.5rem;
 	font-size: 20px;
@@ -8,8 +8,6 @@ ul a {
 		Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans',
 		'Helvetica Neue', Helvetica, Arial, sans-serif;
 	cursor: pointer;
-	align-items: center;
-	justify-items: center;
 }
 ul > a:nth-child(1) {
 	font-weight: bold;
@@ -22,13 +20,24 @@ ul > a:nth-child(1):hover {
 }
 ul a:hover {
 	background-color: #f5efeb;
+	transition: ease-in-out;
+	transition-duration: 300ms;
 }
 .navbtn a {
 	padding: 12px;
-	margin-left: 25px;
+	margin-left: 20px;
 	font-size: 20px;
 	border-radius: 25px;
 }
 .navbtn a:hover {
 	background-color: #f5efeb;
+	transition: ease-in-out;
+	transition-duration: 300ms;
+}
+.navbtn a:nth-child(2) {
+	background-color: #4b2aad;
+	color: #fff;
+}
+.navbtn a:nth-child(2):hover {
+	background-color: #351e7a;
 }
