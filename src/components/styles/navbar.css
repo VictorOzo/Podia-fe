@@ -8,12 +8,27 @@ ul a {
 		Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans',
 		'Helvetica Neue', Helvetica, Arial, sans-serif;
 	cursor: pointer;
+	align-items: center;
+	justify-items: center;
 }
-ul a span {
-	color: #351e7a;
+ul > a:nth-child(1) {
 	font-weight: bold;
-	font-size: 25px;
+	font-size: 35px;
+	color: #4b2aad;
+}
+ul > a:nth-child(1):hover {
+	color: #351e7a;
+	background-color: transparent;
 }
 ul a:hover {
+	background-color: #f5efeb;
+}
+.navbtn a {
+	padding: 12px;
+	margin-left: 25px;
+	font-size: 20px;
+	border-radius: 25px;
+}
+.navbtn a:hover {
 	background-color: #f5efeb;
 }
