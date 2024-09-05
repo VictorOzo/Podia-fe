@@ -46,6 +46,11 @@ ul a:hover {
 
 /* mobile */
 @media (max-width: 640px) {
+	a.lg\:hidden {
+		color: #4b2aad;
+		font-weight: bold;
+		font-size: 25px;
+	}
 	ul > a:nth-child(1) {
 		display: block;
 	}
