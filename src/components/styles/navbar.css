@@ -41,6 +41,9 @@ ul a:hover {
 .navbtn a:nth-child(2):hover {
 	background-color: #351e7a;
 }
+.hamburger {
+	display: none;
+}
 
 /* Responsiveness */
 
@@ -63,8 +66,26 @@ ul a:hover {
 	.hamburger {
 		display: block;
 	}
-	.hamburger img {
-		width: 25px;
-		cursor: pointer;
+}
+
+/* Tablet view */
+@media (max-width: 768px) {
+	ul > a:nth-child(1) {
+		font-weight: bold;
+		font-size: 20px;
+		color: #4b2aad;
+	}
+	ul a {
+		padding: 9px;
+		margin-left: 10px;
+		border-radius: 25px;
+		line-height: 0.5rem;
+		font-size: 12px;
+	}
+	.navbtn a {
+		padding: 6px;
+		margin-left: 10px;
+		font-size: 12px;
+		border-radius: 20px;
 	}
 }
