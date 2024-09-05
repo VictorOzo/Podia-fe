@@ -41,3 +41,25 @@ ul a:hover {
 .navbtn a:nth-child(2):hover {
 	background-color: #351e7a;
 }
+
+/* Responsiveness */
+
+/* mobile */
+@media (max-width: 640px) {
+	ul > a:nth-child(1) {
+		display: block;
+	}
+	.navlinks ul {
+		display: none;
+	}
+	.navbtn {
+		display: none;
+	}
+	.hamburger {
+		display: block;
+	}
+	.hamburger img {
+		width: 25px;
+		cursor: pointer;
+	}
+}
