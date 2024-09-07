@@ -168,6 +168,16 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
+
+			{/* Call to action section */}
+			<div className='callToAction'>
+				<h2>Get your free Podia account</h2>
+				<p>
+					Join the 150,000+ creators who use Podia to create websites, sell
+					digital products, and build online communities.
+				</p>
+				<Link>Sign up free</Link>
+			</div>
 		</>
 	);
 };
