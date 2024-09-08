@@ -95,9 +95,11 @@ const Home = () => {
 
 			{/* Products Section */}
 			<div className='products'>
-				<div className='prodHeading'>
-					<h1>What kinds of products can you sell with Podia?</h1>
-					<p>
+				<div className='text-center prodHeading'>
+					<h2 className=' w-[780px] mx-auto font-semibold text-4xl mb-[20px]'>
+						What kinds of products can you sell with Podia?
+					</h2>
+					<p className='text-[#5c5856] text-[20px] w-[870px] mx-auto leading-[35px] mb-[100px]'>
 						Podia gives you the flexibility to sell whatever you want.
 						That means you have more ways to grow your creator business.
 					</p>
