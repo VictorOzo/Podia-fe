@@ -3,6 +3,9 @@ import heroImg from '../images/heroImg.png';
 import prod1 from '../images/prod1.png';
 import prod2 from '../images/prod2.png';
 import prod3 from '../images/prod3.png';
+import cart from '../images/cart.png';
+import login from '../images/login.png';
+import upload from '../images/upload.png';
 
 const Home = () => {
 	return (
@@ -35,17 +38,20 @@ const Home = () => {
 			{/* Podia info Section */}
 			<div className='info max-w-[1220px] mx-auto'>
 				<div className='text-center infoheading'>
-					<h1>
+					<h1 className='w-[750px] mx-auto font-semibold text-4xl '>
 						All you have to do is make the product. Podia takes care of
 						the details for you.
 					</h1>
-					<p>
+					<p className='text-[#5c5856] text-[18px] w-[870px] mx-auto leading-[35px] mb-[100px]'>
 						Podia lets you make your sales page, take payments, and give
 						your customers access all in one place. Host and sell your
 						products without needing to figure out a handful of new tools.
 					</p>
 					<div className='flex text-center infoType'>
 						<div className='info1'>
+							<div className='infoimg flex items-center justify-center w-[50px] h-[50px]  bg-[#f5efeb] rounded-[50%] mx-auto'>
+								<img src={cart} alt='' className='w-[20px] ' />
+							</div>
 							<h2>Checkout and sales are handled for you</h2>
 							<p>
 								You don’t have to figure out a bunch of tools or website
@@ -53,8 +59,11 @@ const Home = () => {
 								site takes care of payments for you.
 							</p>
 						</div>
-						<div className='info2'>
-							<h2>
+						<div className=' info2'>
+							<div className='infoimg infoimg flex items-center justify-center w-[50px] h-[50px]  bg-[#f5efeb] rounded-[50%] mx-auto'>
+								<img src={login} alt='' className='w-[20px] ' />
+							</div>
+							<h2 className='w-[270px] text-[18px] font-semibold leading-6 mx-auto '>
 								Your customers log in, and your products are there for
 								them
 							</h2>
@@ -66,6 +75,9 @@ const Home = () => {
 							</p>
 						</div>
 						<div className='info3'>
+							<div className='infoimg infoimg flex items-center justify-center w-[50px] h-[50px]  bg-[#f5efeb] rounded-[50%] mx-auto'>
+								<img src={upload} alt='' className='w-[20px] ' />
+							</div>
 							<h2>Checkout and sales are handled for you</h2>
 							<p>
 								You could sell a digital product by this afternoon.
