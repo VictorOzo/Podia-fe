@@ -36,7 +36,7 @@ const Home = () => {
 			</div>
 
 			{/* Podia info Section */}
-			<div className='info max-w-[1220px] mx-auto'>
+			<div className='info max-w-[1220px] mx-auto mb-[120px]'>
 				<div className='text-center infoheading'>
 					<h1 className='w-[750px] mx-auto font-semibold text-4xl '>
 						All you have to do is make the product. Podia takes care of
@@ -47,39 +47,43 @@ const Home = () => {
 						your customers access all in one place. Host and sell your
 						products without needing to figure out a handful of new tools.
 					</p>
-					<div className='flex text-center infoType'>
-						<div className='info1'>
+					<div className='flex text-center infoType '>
+						<div className='mx-auto info1'>
 							<div className='infoimg flex items-center justify-center w-[50px] h-[50px]  bg-[#f5efeb] rounded-[50%] mx-auto'>
 								<img src={cart} alt='' className='w-[20px] ' />
 							</div>
-							<h2>Checkout and sales are handled for you</h2>
-							<p>
+							<h2 className='w-[300px] text-[18px] mb-[30px] font-semibold leading-6 mx-auto '>
+								Checkout and sales are handled for you
+							</h2>
+							<p className='text-[#5c5856] w-[269px]'>
 								You don’t have to figure out a bunch of tools or website
 								embeds. Just connect a payment provider and your Podia
 								site takes care of payments for you.
 							</p>
 						</div>
-						<div className=' info2'>
+						<div className='mx-auto info2'>
 							<div className='infoimg infoimg flex items-center justify-center w-[50px] h-[50px]  bg-[#f5efeb] rounded-[50%] mx-auto'>
 								<img src={login} alt='' className='w-[20px] ' />
 							</div>
-							<h2 className='w-[270px] text-[18px] font-semibold leading-6 mx-auto '>
+							<h2 className='w-[270px] text-[18px] mb-[30px] font-semibold leading-6 mx-auto '>
 								Your customers log in, and your products are there for
 								them
 							</h2>
-							<p>
+							<p className='text-[#5c5856] w-[269px]'>
 								Your Podia site handles access to products for you.
 								Everything is in one place. When your customers buy a
 								product, they get a log in. After that, they can see all
 								the products they’ve bought from you.
 							</p>
 						</div>
-						<div className='info3'>
+						<div className='mx-auto info3'>
 							<div className='infoimg infoimg flex items-center justify-center w-[50px] h-[50px]  bg-[#f5efeb] rounded-[50%] mx-auto'>
 								<img src={upload} alt='' className='w-[20px] ' />
 							</div>
-							<h2>Checkout and sales are handled for you</h2>
-							<p>
+							<h2 className='w-[270px] text-[18px] mb-[30px] font-semibold leading-6 mx-auto '>
+								Checkout and sales are handled for you
+							</h2>
+							<p className='text-[#5c5856] w-[269px]'>
 								You could sell a digital product by this afternoon.
 								Podia handles hosting, sales pages, checkout, and
 								delivery. All you need is something to sell.
