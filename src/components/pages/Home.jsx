@@ -94,7 +94,7 @@ const Home = () => {
 			</div>
 
 			{/* Products Section */}
-			<div className='products'>
+			<div className='products max-w-[1220px] mx-auto mb-[120px]'>
 				<div className='text-center prodHeading'>
 					<h2 className=' w-[780px] mx-auto font-semibold text-4xl mb-[20px]'>
 						What kinds of products can you sell with Podia?
@@ -104,20 +104,30 @@ const Home = () => {
 						That means you have more ways to grow your creator business.
 					</p>
 				</div>
-				<div className='prod1'>
+				<div className=' prod1'>
 					<div className='flex prodInfo'>
 						<div className='prodText'>
-							<p>ONLINE COURSES</p>
-							<h2>Beautiful online courses you can build in moments</h2>
-							<p>
+							<p className='text-[#5c5856] text-[0.666667rem] tracking-[.1rem] font-semibold'>
+								ONLINE COURSES
+							</p>
+							<h2 className='text-[20px] font-semibold leading-[1.5rem]'>
+								Beautiful online courses you can build in moments
+							</h2>
+							<p className='w-[450px] text-[#5c5856] text-[16px] leading-[1.8rem]'>
 								Make a beautiful online course for your customers. Podia
 								hosts your course. That means all the lessons, files,
 								and videos you want handled for you.
 							</p>
-							<Link>Learn more about courses →</Link>
+							<div className='prodLink w-[250px] text-[#4b2aad] font-semibold text-[1rem]'>
+								<Link>Learn more about courses →</Link>
+							</div>
 						</div>
-						<div className='prodImg'>
-							<img src={prod1} alt='' />
+						<div className='prodImg '>
+							<img
+								src={prod1}
+								alt=''
+								className=' w-[540px] rounded-[15px]'
+							/>
 						</div>
 					</div>
 					<div className='prodTest'>
